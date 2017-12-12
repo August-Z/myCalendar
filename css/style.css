@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+    background: transparent url("../images/back.jpg") no-repeat;
+    background-size: cover;
+
+}
+
+ul,ol{
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    list-style: none;
+}
+
+button,h4{
+    font-family: "Microsoft YaHei", sans-serif;
+}
+
+h4{
+    height: 40px;
+    line-height: 40px;
+    letter-spacing: .2em;
+}
+
+button{
+    padding: 3px 5px;
+}

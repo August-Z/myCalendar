@@ -1,0 +1,38 @@
+.center {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.wrapper {
+    width: 800px;
+    max-height: 510px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    background-color: rgba(233, 233, 233, 0.55);
+    border-radius: 10px;
+}
+
+.list > li {
+    width: 100px;
+    float: left;
+    padding: 18px 0;
+    letter-spacing: .1em;
+    font-family: Consolas, sans-serif;
+    font-weight: bolder;
+}
+
+#days > li {
+    cursor: pointer;
+}
+
+#days > li:hover{
+    color: tomato;
+}
+
+
